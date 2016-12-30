@@ -1,0 +1,235 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+.container {padding:20px;}
+.form-control {width:120px;}
+.popover {max-width:400px;}
+.emailMe{
+	position: fixed;
+	margin-top: 300px;
+	margin-left: -13px;
+	/* Rotate div */
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+	color: #bbbbbb;
+	z-index: 999;
+}
+
+.name{
+	position: fixed;
+	margin-top: 100px;
+	margin-left: -59px;
+	/* Rotate div */
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+	color: #bbbbbb;
+	z-index: 999;
+}
+h3.welcome {
+	position: absolute;
+	margin-top: 27px;
+	font-weight: 400;
+	font-size: 3.0em;
+}
+p.iam {
+	margin-top: 77px;	
+}
+img.icon {
+	width: 24px;
+    padding: 0px 0;
+    left: -9px;
+}
+
+.clemente {
+	font-size: 1.5em;
+    color: #6e929f;
+    font-weight: 800;
+    padding: 0 66px;
+}
+.home {
+	position: absolute;
+	top: 0px;
+	max-height: 30px;
+}
+.container {
+	margin-top: 10px;
+	border-radius: 25px;
+	float: none !important;
+}
+img.arrow {
+	position: relative;
+	margin: 0 auto;
+	top: 80px;
+    float: none !important;
+}
+img.arrow:hover {
+	position: relative;
+	margin: 0 auto;
+	top: 90px;
+}
+.carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    margin-left: -30%;
+    padding-left: 0;
+    list-style: none;
+    text-align: center;
+}
+
+	
+.carousel-indicators .active {
+	top: 
+    margin: 0;
+    width: 12px;
+    height: 12px;
+    background-color: #000;
+}
+
+.carousel-indicators li {
+    border: 1px solid #aaaaaa;
+}
+.carousel-indicators li {
+    display: inline-block;
+    width: 30px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #000 \9;
+    background-color: rgba(0,0,0,0);
+}
+
+
+ol.carousel-indicators
+.carousel-indicators {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    margin-left: -30%;
+    padding-left: 0;
+    list-style: none;
+    text-align: center;
+}
+.carousel-indicators {
+	position: relative;
+	top: 200px;
+}
+
+.section1 {
+	margin-top: 150px;
+}
+.section2, .white-inside {
+	margin-top: 100px;
+	float: none !important;
+}
+.grey-outside, .section1 h4,{
+	margin-top: 0px;
+	float: none !important;
+}
+
+
+.grey-outside{
+	background-color: #eeeeee;
+}
+.white-inside {
+	position: relative;
+	top: -50px;	
+	background-color: #fff;
+	padding: 50px 0 0px 0;
+    border-radius: 20px 20px 0 0;
+	border: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+}
+hr {
+    position: relative;
+    top: 30px;
+    border-bottom: 1px solid #eeeeee;
+    padding: 0;
+    margin: 0;
+}
+.right-side-text {
+	position: relative;
+	 top: 4px;
+    left: 186px;
+	display: block;
+	/* Rotate div */
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+	color: #bbbbbb;
+	z-index: 999;
+}
+.enlarge {
+	top: 0px;
+	left: 0px;
+}
+.openNewTab{
+	position: relative;
+    top: 0px;
+    left: 81px;
+}
+.bottom-buttons {
+	position: relative;
+    top: 37px;
+    background-color: #f7f7f7;
+    display: inline-block;
+    border: 1px solid #eeeeee;
+}
+
+.about, .more {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: transparent;
+    white-space: nowrap;
+    padding: 6px 26px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 0px;
+
+ }
+
+.popover {
+    border: none;
+    box-shadow: 0px 15px 15px #b2b2b2;
+}
+.popover.bottom>.arrow {
+    border-bottom-color: #fff !important; 
+}
+ button {
+ 	color: #337ab7;
+ }
+ 
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { 
+    .white-inside {
+    position: relative;
+    float: left !important;
+    top: -50px; 
+    background-color: #fff;
+    padding: 50px 0 0px 0;
+    border-radius: 20px 20px 0 0;
+    border: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { 
+
+ }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
